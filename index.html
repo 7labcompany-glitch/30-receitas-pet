@@ -7,153 +7,97 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header / Navbar Minimalist -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">30 Receitas<span>Pet</span></div>
-            <a href="#checkout" class="btn-primary-small">Comprar Agora</a>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <span class="badge">Acesso Imediato</span>
-                <h1>Receitas que milhares de papais e mamães de pet estão utilizando para <span>VARIAR A ALIMENTAÇÃO</span> de seu cãozinho de forma <span>FÁCIL</span> e com <span>INGREDIENTES BARATOS</span></h1>
-                <div class="cta-group">
-                    <a href="#checkout" class="btn-primary">Quero Garantir Meu E-book</a>
-                    <p class="cta-subtitle">Acesso imediato após a confirmação</p>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="mockup-container">
-                    <img src="assets/mockup-ebook.png" alt="Mockup 3D Ebook 30 Receitas" id="main-mockup">
-                    <div class="floating-badge">Oferta Especial</div>
-                </div>
-            </div>
+    <header class="hero container">
+        <h1 class="headline">Receitas que milhares de papais e mamães de pet estão utilizando para <span class="highlight">VARIAR A ALIMENTAÇÃO</span> de seu cãozinho de forma <span class="highlight">FÁCIL</span> e com <span class="highlight">INGREDIENTES BARATOS</span></h1>
+        
+        <a href="#checkout" class="btn-cta">QUERO GARANTIR MEU E-BOOK</a>
+
+        <div class="mockup-container">
+            <img src="assets/mockup-ebook.png" alt="Ebook 30 Receitas Saudáveis">
         </div>
     </header>
 
-    <!-- O Que Você Vai Encontrar -->
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">O que você vai encontrar no E-book</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="icon">🍳</div>
-                    <h3>30 receitas caseiras fáceis de preparar</h3>
-                    <p>Variedade para o dia a dia.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">📝</div>
-                    <h3>Passo a passo completo de cada receita</h3>
-                    <p>Sem complicações na cozinha.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🥗</div>
-                    <h3>Ingredientes nutritivos e selecionados</h3>
-                    <p>Foco na saúde do seu pet.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🍰</div>
-                    <h3>Opções de bolos saudáveis para pet</h3>
-                    <p>Para comemorar momentos especiais.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">💰</div>
-                    <h3>Dicas para economizar na compra dos ingredientes</h3>
-                    <p>Saúde sem pesar no bolso.</p>
-                </div>
-            </div>
+    <section class="container">
+        <h2 class="section-title">O QUE VOCÊ VAI ENCONTRAR NO E-BOOK:</h2>
+        
+        <div class="feature-item"><span class="check-icon">✓</span> 30 receitas caseiras fáceis de preparar</div>
+        <div class="feature-item"><span class="check-icon">✓</span> Passo a passo completo de cada receita</div>
+        <div class="feature-item"><span class="check-icon">✓</span> Ingredientes nutritivos e selecionados</div>
+        <div class="feature-item"><span class="check-icon">✓</span> Opções de bolos saudáveis para pet</div>
+        <div class="feature-item"><span class="check-icon">✓</span> Dicas para economizar na compra dos ingredientes</div>
+
+        <div class="divider"></div>
+
+        <h2 class="section-title">7 BÔNUS EXCLUSIVOS:</h2>
+        <p class="bonus-title">Guia de Alimentos Proibidos</p>
+        <p class="bonus-title">Receitas para Cães Obesos</p>
+        <p class="bonus-title">Receitas para Cães Idosos</p>
+        <p class="bonus-title">Receitas para Alergias Atópicas</p>
+        <p class="bonus-title">Guia de Frutas</p>
+        <p class="bonus-title">Dicas Nutricionais</p>
+        <p class="bonus-title">Petiscos Saudáveis</p>
+
+        <div class="divider"></div>
+
+        <h2 class="section-title">QUEM JÁ COMPROU E RECOMENDA:</h2>
+        
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Meu pet não comia nada, agora limpa o prato todo dia."</p>
+            <p><strong>- Rafaela Almeida</strong></p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Muito fácil de fazer e os ingredientes são super baratos."</p>
+            <p><strong>- Amanda Garcia</strong></p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Adorei a variedade, meu cachorro está muito mais feliz."</p>
+            <p><strong>- Maria Helena</strong></p>
         </div>
     </section>
 
-    <!-- 7 Bônus Section -->
-    <section class="bonus">
+    <section id="checkout" class="checkout-section">
         <div class="container">
-            <h2 class="section-title">7 BÔNUS EXCLUSIVOS</h2>
-            <div class="bonus-grid">
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Guia de Alimentos Proibidos</h4></div>
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Receitas para Cães Obesos</h4></div>
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Receitas para Cães Idosos</h4></div>
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Receitas para Alergias Atópicas</h4></div>
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Guia de Frutas</h4></div>
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Dicas Nutricionais</h4></div>
-                <div class="bonus-item"><span class="bonus-tag">Grátis</span> <h4>Petiscos Saudáveis</h4></div>
-            </div>
+            <p class="old-price">DE R$ 59,90</p>
+            <p class="price-text">POR APENAS</p>
+            <h3 class="main-price">R$ 19,90</h3>
+            
+            <a href="https://pay.kiwify.com.br/Y4Cuat4" class="btn-cta">SIM! EU QUERO EBOOK DE RECEITAS POR R$19,90</a>
+
+            <p class="guarantee-text">GARANTIA INCONDICIONAL DE 7 DIAS</p>
         </div>
     </section>
 
-    <!-- Depoimentos -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">Quem já comprou e recomenda</h2>
-            <div class="testimonial-slider">
-                <div class="testimonial-card">
-                    <p>"Meu pet não comia nada, agora limpa o prato todo dia."</p>
-                    <cite>- Rafaela Almeida</cite>
-                </div>
-                <div class="testimonial-card">
-                    <p>"Muito fácil de fazer e os ingredientes são super baratos."</p>
-                    <cite>- Amanda Garcia</cite>
-                </div>
-                <div class="testimonial-card">
-                    <p>"Adorei a variedade, meu cachorro está muito mais feliz."</p>
-                    <cite>- Maria Helena</cite>
-                </div>
-            </div>
+    <section class="container" style="padding: 60px 0;">
+        <h2 class="section-title">DÚVIDAS FREQUENTES:</h2>
+        
+        <div class="faq-item">
+            <h4>SERVE PARA QUALQUER RAÇA?</h4>
+            <p>Sim.</p>
+        </div>
+        
+        <div class="faq-item">
+            <h4>COMO RECEBO?</h4>
+            <p>Por e-mail após a compra.</p>
+        </div>
+        
+        <div class="faq-item">
+            <h4>TEM GARANTIA?</h4>
+            <p>Sim, 7 dias incondicionais.</p>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="checkout" class="pricing">
-        <div class="container">
-            <div class="price-card">
-                <h3>Oferta Especial</h3>
-                <div class="old-price">R$ 59,90</div>
-                <div class="new-price">R$ 19,90</div>
-                <p>Pagamento Único | Acesso Vitalício</p>
-                <a href="https://pay.kiwify.com.br/Y4Cuat4" class="btn-primary-large">SIM! EU QUERO EBOOK DE RECEITAS POR R$19,90</a>
-                <div class="guarantee">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9 12L11 14L15 10" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span>Garantia incondicional de 7 dias</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq">
-        <div class="container">
-            <h2 class="section-title">Dúvidas Frequentes</h2>
-            <div class="faq-accordion">
-                <div class="faq-item">
-                    <h4>Serve para qualquer raça?</h4>
-                    <p>Sim.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>Como recebo?</h4>
-                    <p>Por e-mail após a compra.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>Tem garantia?</h4>
-                    <p>Sim, 7 dias incondicionais.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 30 Receitas Pet. Todos os direitos reservados.</p>
-        </div>
+    <footer style="padding: 40px 0; background: #eee; font-size: 12px; color: #666;">
+        <p>&copy; 2026 30 Receitas Pet. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
